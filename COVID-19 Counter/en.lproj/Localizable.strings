@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  COVID-19 Counter
+
+  Created by Alejandro Hernández Cortés on 09/06/21.
+  
+*/
+
+// App Name
+"appName" = "COVID-19 Capacity counter";
+
+
+// Alerts
+"newLimitAlertTitle" = "New Limit";
+"newLimitAlertMessage" = "Set a new capacity limit";
+"newLimitAlertSet" = "Set";
+"newLimitAlertCancel" = "Cancel";
+
+"noLimitAlertTitle" = "Warning";
+"noLimitAlertMessage" = "Make sure to set a new limit capacity";
+
+// Cases
+
+"below50" = "You are below the 50% of allowed capacity";
+"above50" = "You are above the 50% of allowed capacity";
+"above75" = "You are above the 75% of allowed capacity";
+"reachLimit" = "You reached the maximum capacity";
+

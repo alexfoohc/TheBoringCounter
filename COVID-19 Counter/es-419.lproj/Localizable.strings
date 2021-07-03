@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  COVID-19 Counter
+
+  Created by Alejandro Hernández Cortés on 09/06/21.
+  
+*/
+// App Name
+"appName" = "Contador de capacidad COVID-19";
+
+// Alerts
+"newLimitAlertTitle" = "Nuevo Límite";
+"newLimitAlertMessage" = "Agrega un nuevo límite de capacidad";
+"newLimitAlertSet" = "Agregar";
+"newLimitAlertCancel" = "Cancelar";
+
+"noLimitAlertTitle" = "Advertencia";
+"noLimitAlertMessage" = "Asegúrese de agregar un límite de capacidad";
+
+// Cases
+
+"below50" = "Está por debajo del 50% de la capacidad permitida";
+"above50" = "Está por arriba del 50% de la capacidad permitida";
+"above75" = "Está por arriba del 75% de la capacidad permitida";
+"reachLimit" = "La capacidad está al límite";
+
