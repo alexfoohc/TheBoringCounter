@@ -15,9 +15,9 @@ It's a pretty simple app consisting of two buttons to keep track of how many peo
 
 Here is how it looks on the iPhone 12 Pro Max Simulator. 
 
-![Screenshot](Screenshots/Simulator Screen Shot - iPhone 12 Pro Max - 2021-07-02 at 22.55.48.png)
-![Screenshot](Simulator Screen Shot - iPhone 12 Pro Max - 2021-07-02 at 22.55.56.png)
-![Screenshot](Simulator Screen Shot - iPhone 12 Pro Max - 2021-07-02 at 22.56.05.png)
-![Screenshot](Simulator Screen Shot - iPhone 12 Pro Max - 2021-07-02 at 22.56.16.png)
-![Screenshot](Simulator Screen Shot - iPhone 12 Pro Max - 2021-07-02 at 22.56.21.png)
-![Screenshot](Simulator Screen Shot - iPhone 12 Pro Max - 2021-07-02 at 22.56.24.png)
+![Screenshot](Screenshots/screenshot1.png)
+![Screenshot](Screenshots/screenshot2.png)
+![Screenshot](Screenshots/screenshot3.png)
+![Screenshot](Screenshots/screenshot4.png)
+![Screenshot](Screenshots/screenshot5.png)
+![Screenshot](Screenshots/screenshot6.png)
