@@ -129,7 +129,7 @@ class MainController: UIViewController, UITextFieldDelegate {
                 let textIsNotEmpty = textCount > 0
                 setAction.isEnabled = textIsNotEmpty
             }
-            textfield.placeholder = "20"
+            textfield.placeholder = NSLocalizedString("newLimitPlaceholder", comment: "")
             textfield.keyboardType = .numberPad
         }
 

@@ -15,6 +15,7 @@
 "newLimitAlertMessage" = "Set a new capacity limit";
 "newLimitAlertSet" = "Set";
 "newLimitAlertCancel" = "Cancel";
+"newLimitPlaceholder" = "20 people";
 
 "noLimitAlertTitle" = "Warning";
 "noLimitAlertMessage" = "Make sure to set a new limit capacity";

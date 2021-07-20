@@ -13,6 +13,7 @@
 "newLimitAlertMessage" = "Agrega un nuevo límite de capacidad";
 "newLimitAlertSet" = "Agregar";
 "newLimitAlertCancel" = "Cancelar";
+"newLimitPlaceholder" = "20 personas";
 
 "noLimitAlertTitle" = "Advertencia";
 "noLimitAlertMessage" = "Asegúrese de agregar un límite de capacidad";

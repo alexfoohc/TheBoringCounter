@@ -15,6 +15,10 @@ let FONT_MEDIUM = "Avenir-Medium"
 let FONT_BLACK = "Avenir-Black"
 let FONT_HEAVY = "Avenir-Heavy"
 
+
+//Colors
 let greenColor: UIColor = UIColor(named: "GreenColor")!
 let yellowColor: UIColor = UIColor(named: "YellowColor")!
 let redColor: UIColor = UIColor(named: "RedColor")!
+
+
