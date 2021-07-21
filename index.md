@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Why I created this app?
+Honestly, this was kind of an experiment to see understand how was the process of submitting an iOS app to the App Store. I wanted to start with a simple app (currently working on a more complicated app of my own) and see what problems I may encounter during the submit process. 
 
-You can use the [editor on GitHub](https://github.com/alexfoohc/COVID-19-Counter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Description
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+COVIDCount is a counter where you keep track of how many people enter or exit a closed space setting a limit capacity, following the COVID-19 health and safety protocols for closed areas. It's a bit late to create this kind of app but who knows, maybe somebody needs it at the moment! Also, the source code is here so you can check it out how I did this.
 
-### Markdown
+### Features
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Friendly UI that indicates the current state of the allowed capacity with bright colors and a message.
+- Straight to the point, no complicated paths to use it.
 
-```markdown
-Syntax highlighted code block
+### Screenshots
+Here is how it looks on the iPhone 12 Pro Max
+![Screenshot](Screenshots/screenshot1.png)
+![Screenshot](Screenshots/screenshot2.png)
+![Screenshot](Screenshots/screenshot3.png)
+![Screenshot](Screenshots/screenshot4.png)
 
-# Header 1
-## Header 2
-### Header 3
+### Contact
+If you have any thoughts or suggestions you can reach me out here:
+- Mail: alex.hernandezc.21@gmail.com
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alexfoohc/COVID-19-Counter/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
