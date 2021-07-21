@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35F2573E26A7827600FC18D7 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F2573D26A7827600FC18D7 /* Logo.png */; };
 		35FD42752671C30B0096B2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42742671C30B0096B2FC /* AppDelegate.swift */; };
 		35FD42772671C30B0096B2FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42762671C30B0096B2FC /* SceneDelegate.swift */; };
 		35FD42792671C30B0096B2FC /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42782671C30B0096B2FC /* MainController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35F2573D26A7827600FC18D7 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		35FD42712671C30B0096B2FC /* COVID-19 Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19 Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FD42742671C30B0096B2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35FD42762671C30B0096B2FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				35FD42822671C30D0096B2FC /* LaunchScreen.storyboard */,
 				35FD42852671C30D0096B2FC /* Info.plist */,
 				35FD427D2671C30B0096B2FC /* COVID_19_Counter.xcdatamodeld */,
+				35F2573D26A7827600FC18D7 /* Logo.png */,
 				35FD42D82671C6990096B2FC /* Localizable.strings */,
 			);
 			path = "COVID-19 Counter";
@@ -257,6 +260,7 @@
 			files = (
 				35FD42842671C30D0096B2FC /* LaunchScreen.storyboard in Resources */,
 				35FD42D62671C6990096B2FC /* Localizable.strings in Resources */,
+				35F2573E26A7827600FC18D7 /* Logo.png in Resources */,
 				35FD42812671C30D0096B2FC /* Assets.xcassets in Resources */,
 				35FD427C2671C30B0096B2FC /* Main.storyboard in Resources */,
 			);
