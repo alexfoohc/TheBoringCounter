@@ -3,20 +3,18 @@ Honestly, this was kind of an experiment to see understand how was the process o
 
 ## Description
 
-COVIDCount is a counter where you keep track of how many people enter or exit a closed space setting a limit capacity, following the COVID-19 health and safety protocols for closed areas. It's a bit late to create this kind of app but who knows, maybe somebody needs it at the moment! Also, the source code is here so you can check it out how I did this.
+The Boring Counter as the title says, is a simple counter where you keep track of how many people enter or exit a closed space setting a limit capacity. This could be used in several situations especially with COVID-19. It's a bit late to create this kind of app but who knows, maybe somebody needs it at the moment! Also, the source code is here so you can check it out how I did this.
 
 ## Features
 
 - Friendly UI that indicates the current state of the allowed capacity with bright colors and a message.
 - Straight to the point, no complicated paths to use it.
 
-## Screenshots
+## Design
 This is how it looks
 
-![Screenshot](Screenshots/Screenshot1.png)
-![Screenshot](Screenshots/Screenshot2.png)
-![Screenshot](Screenshots/Screenshot3.png)
-![Screenshot](Screenshots/Screenshot4.png)
+![Screenshot](Screenshots/FinalPresentation.png)
+
 
 ### Contact
 If you have any thoughts or suggestions you can reach me out here:
