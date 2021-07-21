@@ -41,9 +41,13 @@ class MainController: UIViewController, UITextFieldDelegate {
         separatorCapacityLbl.text = "/"
         capacityLimitLbl.text = "0"
         counterCapacityLbl.text = "0"
-        appNameLbl.text = NSLocalizedString("appName", comment: "")
+        appNameLbl.text = """
+            The
+            Boring
+            Counter
+            """
         appNameLbl.font = UIFont(name: FONT_BLACK, size: 24)
-        appNameLbl.numberOfLines = 0
+        appNameLbl.numberOfLines = 3
         appNameLbl.lineBreakMode = .byWordWrapping
         appNameLbl.adjustsFontSizeToFitWidth = true
         

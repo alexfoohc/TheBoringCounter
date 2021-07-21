@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4tX-6b-Hbv">
-                                <rect key="frame" x="62" y="208" width="251" height="251"/>
+                                <rect key="frame" x="62" y="228" width="251" height="251"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DHC-6p-vlJ">
                                         <rect key="frame" x="53.5" y="115.5" width="144.5" height="20.5"/>
@@ -51,17 +51,17 @@
                                     <constraint firstItem="DHC-6p-vlJ" firstAttribute="centerX" secondItem="4tX-6b-Hbv" secondAttribute="centerX" id="xNm-Vi-OaI"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xls-kW-bdK">
-                                <rect key="frame" x="20" y="16" width="249" height="66"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xls-kW-bdK">
+                                <rect key="frame" x="20" y="8" width="99" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="66" id="IFV-ep-UK2"/>
+                                    <constraint firstAttribute="height" constant="100" id="IFV-ep-UK2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0L-gU-IZR">
-                                <rect key="frame" x="309" y="32" width="46" height="34"/>
+                                <rect key="frame" x="309" y="41" width="46" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="3jQ-XP-YMC"/>
                                     <constraint firstAttribute="width" constant="46" id="rpq-Eq-E3f"/>
@@ -72,7 +72,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="162" translatesAutoresizingMaskIntoConstraints="NO" id="ARe-us-UY6">
-                                <rect key="frame" x="57.5" y="526" width="260" height="59"/>
+                                <rect key="frame" x="57.5" y="546" width="260" height="59"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2v7-rh-FSd">
                                         <rect key="frame" x="0.0" y="0.0" width="49" height="59"/>
@@ -101,8 +101,8 @@
                                     <constraint firstAttribute="height" constant="59" id="JK5-fZ-4lt"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yE7-RJ-GDh">
-                                <rect key="frame" x="44.5" y="134" width="286" height="66"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yE7-RJ-GDh">
+                                <rect key="frame" x="44.5" y="138" width="286" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="EE7-Mq-cpS"/>
                                     <constraint firstAttribute="width" constant="286" id="ORM-k7-6Of"/>
@@ -115,18 +115,18 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="M0L-gU-IZR" firstAttribute="leading" secondItem="xls-kW-bdK" secondAttribute="trailing" constant="40" id="3mm-01-wVX"/>
-                            <constraint firstItem="4tX-6b-Hbv" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yE7-RJ-GDh" secondAttribute="bottom" constant="16" id="5b5-PX-nPj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ARe-us-UY6" secondAttribute="bottom" constant="82" id="B41-1v-AS2"/>
-                            <constraint firstItem="4tX-6b-Hbv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="INp-cj-daP"/>
+                            <constraint firstItem="M0L-gU-IZR" firstAttribute="leading" secondItem="xls-kW-bdK" secondAttribute="trailing" constant="190" id="3mm-01-wVX"/>
+                            <constraint firstItem="4tX-6b-Hbv" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yE7-RJ-GDh" secondAttribute="bottom" constant="16" id="9af-HD-inc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M0L-gU-IZR" secondAttribute="trailing" constant="20" id="KLe-8Q-dTG"/>
                             <constraint firstItem="xls-kW-bdK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ohw-ix-JPa"/>
                             <constraint firstItem="M0L-gU-IZR" firstAttribute="centerY" secondItem="xls-kW-bdK" secondAttribute="centerY" id="SWL-e4-kb9"/>
-                            <constraint firstItem="xls-kW-bdK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="UYR-4z-eCK"/>
-                            <constraint firstItem="4tX-6b-Hbv" firstAttribute="centerX" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X0R-wB-bxS"/>
+                            <constraint firstItem="xls-kW-bdK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="UYR-4z-eCK"/>
+                            <constraint firstItem="4tX-6b-Hbv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X0R-wB-bxS"/>
                             <constraint firstItem="ARe-us-UY6" firstAttribute="top" secondItem="4tX-6b-Hbv" secondAttribute="bottom" constant="67" id="ZcS-ww-P4o"/>
+                            <constraint firstItem="yE7-RJ-GDh" firstAttribute="top" secondItem="xls-kW-bdK" secondAttribute="bottom" constant="30" id="ZfO-FA-Y2l"/>
                             <constraint firstItem="ARe-us-UY6" firstAttribute="centerX" secondItem="4tX-6b-Hbv" secondAttribute="centerX" id="dX3-Fb-Od1"/>
                             <constraint firstItem="yE7-RJ-GDh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gKm-1w-5ol"/>
+                            <constraint firstItem="4tX-6b-Hbv" firstAttribute="top" secondItem="xls-kW-bdK" secondAttribute="bottom" constant="120" id="hz8-gu-rDa"/>
                             <constraint firstItem="ARe-us-UY6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ilc-qA-dMD"/>
                         </constraints>
                     </view>

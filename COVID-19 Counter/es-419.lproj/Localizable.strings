@@ -5,8 +5,6 @@
   Created by Alejandro Hernández Cortés on 09/06/21.
   
 */
-// App Name
-"appName" = "Contador de capacidad COVID-19";
 
 // Alerts
 "newLimitAlertTitle" = "Nuevo Límite";
