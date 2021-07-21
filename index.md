@@ -11,7 +11,7 @@ COVIDCount is a counter where you keep track of how many people enter or exit a 
 - Straight to the point, no complicated paths to use it.
 
 ## Screenshots
-Here is how it looks on the iPhone 12 Pro Max
+This is how it looks
 
 ![Screenshot](Screenshots/Screenshot1.png)
 ![Screenshot](Screenshots/Screenshot2.png)
