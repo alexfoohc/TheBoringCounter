@@ -1,5 +1,5 @@
 ## Why I created this app?
-Honestly, this was kind of an experiment to see understand how was the process of submitting an iOS app to the App Store. I wanted to start with a simple app (currently working on a more complicated app of my own) and see what problems I may encounter during the submit process. 
+Honestly, this was kind of an experiment to see understand how was the process of publishing an iOS app to the App Store. I wanted to start with a simple app (currently working on a more complicated app of my own) and see what problems I may encounter during the submit process. 
 
 ## Description
 
