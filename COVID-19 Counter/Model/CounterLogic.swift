@@ -10,6 +10,7 @@ import UIKit
 
 class CounterLogic {
     
+    // TODO: Need to change this whole logic concept, use computed properties and delete the total capacity, may be used in the future
     var totalCapacity: Double = 0
     var currentCapacity: Double = 0
     var currentColor: UIColor!
