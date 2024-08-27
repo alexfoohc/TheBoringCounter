@@ -7,19 +7,7 @@
 */
 
 // Alerts
-"newLimitAlertTitle" = "Nuevo Límite";
-"newLimitAlertMessage" = "Agrega un nuevo límite de capacidad";
-"newLimitAlertSet" = "Agregar";
-"newLimitAlertCancel" = "Cancelar";
-"newLimitPlaceholder" = "20 personas";
+"zeroWarning" = "La cuenta está en cero, no puede tener una cuenta con números negativos";
+"zeroWarningTitle" = "Advertencia";
 
-"noLimitAlertTitle" = "Advertencia";
-"noLimitAlertMessage" = "Asegúrese de agregar un límite de capacidad";
-
-// Cases
-
-"below50" = "Está por debajo del 50% de la capacidad permitida";
-"above50" = "Está por arriba del 50% de la capacidad permitida";
-"above75" = "Está por arriba del 75% de la capacidad permitida";
-"reachLimit" = "La capacidad está al límite";
 

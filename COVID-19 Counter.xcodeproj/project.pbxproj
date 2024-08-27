@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		350B8C8C26A8001E002BA164 /* Logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 350B8C8B26A8001E002BA164 /* Logo2.png */; };
 		35FD42752671C30B0096B2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42742671C30B0096B2FC /* AppDelegate.swift */; };
 		35FD42772671C30B0096B2FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42762671C30B0096B2FC /* SceneDelegate.swift */; };
 		35FD42792671C30B0096B2FC /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42782671C30B0096B2FC /* MainController.swift */; };
@@ -19,7 +18,7 @@
 		35FD429A2671C30D0096B2FC /* COVID_19_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42992671C30D0096B2FC /* COVID_19_CounterUITests.swift */; };
 		35FD42AF2671C3800096B2FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42AE2671C3800096B2FC /* Constants.swift */; };
 		35FD42D62671C6990096B2FC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35FD42D82671C6990096B2FC /* Localizable.strings */; };
-		35FD42DB2671C7A30096B2FC /* CounterLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42DA2671C7A30096B2FC /* CounterLogic.swift */; };
+		7D1D08DC2C7D61C5005B1CA1 /* AppLogo180.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D08DB2C7D61C5005B1CA1 /* AppLogo180.png */; };
 		7D9966A62C7D240E00DF2AFD /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9966A52C7D240E00DF2AFD /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		350B8C8B26A8001E002BA164 /* Logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo2.png; sourceTree = "<group>"; };
 		35FD42712671C30B0096B2FC /* COVID-19 Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19 Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FD42742671C30B0096B2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35FD42762671C30B0096B2FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +60,7 @@
 		35FD42BE2671C5B80096B2FC /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
 		35FD42D72671C6990096B2FC /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		35FD42D92671C69C0096B2FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		35FD42DA2671C7A30096B2FC /* CounterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterLogic.swift; sourceTree = "<group>"; };
+		7D1D08DB2C7D61C5005B1CA1 /* AppLogo180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppLogo180.png; sourceTree = "<group>"; };
 		7D9966A52C7D240E00DF2AFD /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,8 +112,9 @@
 		35FD42732671C30B0096B2FC /* COVID-19 Counter */ = {
 			isa = PBXGroup;
 			children = (
+				7D1D08DB2C7D61C5005B1CA1 /* AppLogo180.png */,
+				7D9966A72C7D59E100DF2AFD /* Utilities */,
 				7D9966A42C7D23F400DF2AFD /* Extensions */,
-				35FD42AD2671C3750096B2FC /* Model */,
 				35FD42782671C30B0096B2FC /* MainController.swift */,
 				35FD42742671C30B0096B2FC /* AppDelegate.swift */,
 				35FD42762671C30B0096B2FC /* SceneDelegate.swift */,
@@ -124,7 +123,6 @@
 				35FD42822671C30D0096B2FC /* LaunchScreen.storyboard */,
 				35FD42852671C30D0096B2FC /* Info.plist */,
 				35FD427D2671C30B0096B2FC /* COVID_19_Counter.xcdatamodeld */,
-				350B8C8B26A8001E002BA164 /* Logo2.png */,
 				35FD42D82671C6990096B2FC /* Localizable.strings */,
 			);
 			path = "COVID-19 Counter";
@@ -148,21 +146,20 @@
 			path = "COVID-19 CounterUITests";
 			sourceTree = "<group>";
 		};
-		35FD42AD2671C3750096B2FC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				35FD42AE2671C3800096B2FC /* Constants.swift */,
-				35FD42DA2671C7A30096B2FC /* CounterLogic.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		7D9966A42C7D23F400DF2AFD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				7D9966A52C7D240E00DF2AFD /* UIButton+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7D9966A72C7D59E100DF2AFD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				35FD42AE2671C3800096B2FC /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,8 +224,9 @@
 		35FD42692671C30B0096B2FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					35FD42702671C30B0096B2FC = {
 						CreatedOnToolsVersion = 12.4;
@@ -271,9 +269,9 @@
 			files = (
 				35FD42842671C30D0096B2FC /* LaunchScreen.storyboard in Resources */,
 				35FD42D62671C6990096B2FC /* Localizable.strings in Resources */,
-				350B8C8C26A8001E002BA164 /* Logo2.png in Resources */,
 				35FD42812671C30D0096B2FC /* Assets.xcassets in Resources */,
 				35FD427C2671C30B0096B2FC /* Main.storyboard in Resources */,
+				7D1D08DC2C7D61C5005B1CA1 /* AppLogo180.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +298,6 @@
 			files = (
 				35FD42AF2671C3800096B2FC /* Constants.swift in Sources */,
 				35FD42792671C30B0096B2FC /* MainController.swift in Sources */,
-				35FD42DB2671C7A30096B2FC /* CounterLogic.swift in Sources */,
 				35FD42752671C30B0096B2FC /* AppDelegate.swift in Sources */,
 				35FD427F2671C30B0096B2FC /* COVID_19_Counter.xcdatamodeld in Sources */,
 				35FD42772671C30B0096B2FC /* SceneDelegate.swift in Sources */,
@@ -374,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -408,6 +406,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -422,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -436,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -470,6 +470,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -478,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -501,9 +502,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexhernandezc.COVID-19-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -522,9 +527,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexhernandezc.COVID-19-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -538,7 +547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36V4VFDU99;
 				INFOPLIST_FILE = "COVID-19 CounterTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,8 +555,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexhernandezc.COVID-19-CounterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVID-19 Counter.app/COVID-19 Counter";
 			};
 			name = Debug;
@@ -560,7 +573,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36V4VFDU99;
 				INFOPLIST_FILE = "COVID-19 CounterTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,8 +581,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexhernandezc.COVID-19-CounterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVID-19 Counter.app/COVID-19 Counter";
 			};
 			name = Release;
@@ -588,8 +605,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexhernandezc.COVID-19-CounterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = "COVID-19 Counter";
 			};
 			name = Debug;
@@ -608,8 +629,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexhernandezc.COVID-19-CounterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = "COVID-19 Counter";
 			};
 			name = Release;
