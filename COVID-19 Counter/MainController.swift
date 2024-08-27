@@ -46,25 +46,32 @@ class MainController: UIViewController, UITextFieldDelegate {
         addBtn.setTitle("", for: .normal)
         addBtn.tintColor = .white
         addBtn.setPreferredSymbolConfiguration(UIImage.SymbolConfiguration(pointSize: 32, weight: .regular), forImageIn: .normal)
-        addBtn.backgroundColor = .systemGreen
-        addBtn.layer.cornerRadius = addBtn.frame.width / 8
+        addBtn.backgroundColor = UIColor(named: "GreenColor")
+        addBtn.layer.cornerRadius = 12
         
         minusBtn.setImage(UIImage(systemName: "minus"), for: .normal)
         minusBtn.setTitle("", for: .normal)
         minusBtn.tintColor = .white
-        minusBtn.backgroundColor = .red
+        minusBtn.backgroundColor = UIColor(named: "RedColor")
         minusBtn.setPreferredSymbolConfiguration(UIImage.SymbolConfiguration(pointSize: 32, weight: .regular), forImageIn: .normal)
-        minusBtn.layer.cornerRadius = minusBtn.frame.width / 8
+        minusBtn.layer.cornerRadius = 12
         
         resetBtn.setImage(UIImage(systemName: "arrow.counterclockwise"), for: .normal)
         resetBtn.setTitle("", for: .normal)
-        resetBtn.tintColor = .gray
+        resetBtn.tintColor = .white
         resetBtn.setPreferredSymbolConfiguration(UIImage.SymbolConfiguration(pointSize: 30, weight: .regular), forImageIn: .normal)
-        resetBtn.backgroundColor = .systemTeal
-        resetBtn.layer.cornerRadius = resetBtn.frame.width / 8
+        resetBtn.backgroundColor = UIColor(named: "TealColor")
+        resetBtn.layer.cornerRadius = 12
         
         currentValueLbl.text = "232"
         currentValueLbl.font = UIFont(name: FONT_HEAVY, size: 64)
+        
+        currentValueBkgView.backgroundColor = UIColor(named: "BackgroundViewColor")
+        currentValueBkgView.layer.cornerRadius = 12
+        currentValueBkgView.layer.shadowColor = UIColor.lightGray.cgColor
+        currentValueBkgView.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
+        currentValueBkgView.layer.shadowRadius = 12.0
+        currentValueBkgView.layer.shadowOpacity = 0.5
         
         /*newLimitBtn.setImage(UIImage(systemName: "plus"), for: .normal)
         newLimitBtn.tintColor = .black
@@ -77,7 +84,8 @@ class MainController: UIViewController, UITextFieldDelegate {
     }
     
 // MARK: -IBActions
-    @IBAction func addBtnPressed(sender: Any) {
+    @IBAction func addBtnPressed(sender: UIButton) {
+        sender.pulse()
         /*switch counter.checkCapacityLimit() {
         case false:
             let result = counter.incrementCounter()
@@ -90,7 +98,8 @@ class MainController: UIViewController, UITextFieldDelegate {
         }*/
     }
     
-    @IBAction func minusBtnPressed(sender: Any) {
+    @IBAction func minusBtnPressed(sender: UIButton) {
+        sender.pulse()
         /*switch counter.checkCapacityLimit() {
         case false:
             let result = counter.decrementCounter()
@@ -104,7 +113,8 @@ class MainController: UIViewController, UITextFieldDelegate {
          */
     }
 
-    @IBAction func newLimitBtnPressed(sender: Any) {
+    @IBAction func newLimitBtnPressed(sender: UIButton) {
+        sender.pulse()
         /*let newLimitAlert = UIAlertController(title: NSLocalizedString("newLimitAlertTitle", comment: ""), message: NSLocalizedString("newLimitAlertMessage", comment: ""), preferredStyle: .alert)
 
         let setAction = UIAlertAction(title: NSLocalizedString("newLimitAlertSet", comment: ""), style: .default) { (alert) in
@@ -136,6 +146,10 @@ class MainController: UIViewController, UITextFieldDelegate {
         newLimitAlert.addAction(UIAlertAction(title: NSLocalizedString("newLimitAlertCancel", comment: ""), style: .cancel, handler: nil))
 
         present(newLimitAlert, animated: true, completion: nil)*/
+    }
+    
+    @IBAction func resetBtnPressed(_ sender: UIButton) {
+        sender.pulse()
     }
 }
 

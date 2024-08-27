@@ -16,9 +16,12 @@ let FONT_BLACK = "Avenir-Black"
 let FONT_HEAVY = "Avenir-Heavy"
 
 
+
+// TODO: Delete this
+
 //Colors
 let greenColor: UIColor = UIColor(named: "GreenColor")!
-let yellowColor: UIColor = UIColor(named: "YellowColor")!
+let yellowColor: UIColor = UIColor(named: "TealColor")!
 let redColor: UIColor = UIColor(named: "RedColor")!
 
 

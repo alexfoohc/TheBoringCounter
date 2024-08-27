@@ -13,18 +13,18 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainController" customModule="COVID_19_Counter" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Abv-HB-2kX">
-                                <rect key="frame" x="30" y="184.99999999999997" width="370" height="259.33333333333326"/>
+                                <rect key="frame" x="30" y="184.99999999999997" width="370" height="437.33333333333326"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KQ8-d7-OZf">
-                                        <rect key="frame" x="0.0" y="0.0" width="370" height="171"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="370" height="349"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCf-J4-hUZ">
-                                                <rect key="frame" x="99.333333333333329" y="45" width="171.33333333333337" height="81"/>
+                                                <rect key="frame" x="99.333333333333329" y="45" width="171.33333333333337" height="259"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -40,7 +40,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amZ-bi-6RG">
-                                        <rect key="frame" x="0.0" y="183" width="370" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="361" width="370" height="34.333333333333314"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="FJW-QJ-GKD"/>
                                         </constraints>
@@ -51,11 +51,14 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ARe-us-UY6">
-                                        <rect key="frame" x="0.0" y="229.33333333333331" width="370" height="30"/>
+                                        <rect key="frame" x="0.0" y="407.33333333333337" width="370" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2v7-rh-FSd">
                                                 <rect key="frame" x="0.0" y="0.0" width="163.66666666666666" height="30"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="resetBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mh3-gM-yle"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbG-hr-wok">
                                                 <rect key="frame" x="175.66666666666663" y="0.0" width="194.33333333333337" height="30"/>
@@ -85,16 +88,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="Abv-HB-2kX" secondAttribute="bottom" constant="30" id="8Qd-o8-rHc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Abv-HB-2kX" secondAttribute="bottom" constant="30" id="8Qd-o8-rHc"/>
                             <constraint firstItem="Abv-HB-2kX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Y2l-XR-0Ib"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Abv-HB-2kX" secondAttribute="trailing" constant="30" id="bfC-c7-hHj"/>
                             <constraint firstItem="Abv-HB-2kX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="voI-mG-dXe"/>
                             <constraint firstItem="Abv-HB-2kX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xcq-xc-W1O"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="The Boring Counter" id="L6l-Tq-Ee6">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="FBa-6q-nrh"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="The Boring Counter" id="L6l-Tq-Ee6"/>
                     <connections>
                         <outlet property="addBtn" destination="amZ-bi-6RG" id="hmc-N7-PFY"/>
                         <outlet property="currentValueBkgView" destination="KQ8-d7-OZf" id="C5B-lq-ITY"/>
