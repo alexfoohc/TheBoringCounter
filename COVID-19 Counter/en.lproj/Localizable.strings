@@ -6,23 +6,6 @@
   
 */
 
-
-
-
 // Alerts
-"newLimitAlertTitle" = "New Limit";
-"newLimitAlertMessage" = "Set a new capacity limit";
-"newLimitAlertSet" = "Set";
-"newLimitAlertCancel" = "Cancel";
-"newLimitPlaceholder" = "20 people";
-
-"noLimitAlertTitle" = "Warning";
-"noLimitAlertMessage" = "Make sure to set a new limit capacity";
-
-// Cases
-
-"below50" = "You are below the 50% of allowed capacity";
-"above50" = "You are above the 50% of allowed capacity";
-"above75" = "You are above the 75% of allowed capacity";
-"reachLimit" = "You reached the maximum capacity";
-
+"zeroWarning" = "Your count is at zero, the app cannot have a negative count";
+"zeroWarningTitle" = "Warning";
