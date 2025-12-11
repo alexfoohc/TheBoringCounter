@@ -8,18 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		35FD42752671C30B0096B2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42742671C30B0096B2FC /* AppDelegate.swift */; };
-		35FD42772671C30B0096B2FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42762671C30B0096B2FC /* SceneDelegate.swift */; };
-		35FD42792671C30B0096B2FC /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42782671C30B0096B2FC /* MainController.swift */; };
-		35FD427C2671C30B0096B2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FD427A2671C30B0096B2FC /* Main.storyboard */; };
 		35FD427F2671C30B0096B2FC /* COVID_19_Counter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35FD427D2671C30B0096B2FC /* COVID_19_Counter.xcdatamodeld */; };
 		35FD42812671C30D0096B2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FD42802671C30D0096B2FC /* Assets.xcassets */; };
 		35FD42842671C30D0096B2FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FD42822671C30D0096B2FC /* LaunchScreen.storyboard */; };
 		35FD428F2671C30D0096B2FC /* COVID_19_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD428E2671C30D0096B2FC /* COVID_19_CounterTests.swift */; };
 		35FD429A2671C30D0096B2FC /* COVID_19_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42992671C30D0096B2FC /* COVID_19_CounterUITests.swift */; };
-		35FD42AF2671C3800096B2FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FD42AE2671C3800096B2FC /* Constants.swift */; };
 		35FD42D62671C6990096B2FC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35FD42D82671C6990096B2FC /* Localizable.strings */; };
 		7D1D08DC2C7D61C5005B1CA1 /* AppLogo180.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D08DB2C7D61C5005B1CA1 /* AppLogo180.png */; };
-		7D9966A62C7D240E00DF2AFD /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9966A52C7D240E00DF2AFD /* UIButton+Extension.swift */; };
+		7DD5850E2EEB7EE700754987 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5850D2EEB7EE700754987 /* MainView.swift */; };
+		7DD585102EEB89AB00754987 /* COVID_19_CcounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5850F2EEB89AB00754987 /* COVID_19_CcounterApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +39,6 @@
 /* Begin PBXFileReference section */
 		35FD42712671C30B0096B2FC /* COVID-19 Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19 Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FD42742671C30B0096B2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35FD42762671C30B0096B2FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		35FD42782671C30B0096B2FC /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
-		35FD427B2671C30B0096B2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35FD427E2671C30B0096B2FC /* COVID_19_Counter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = COVID_19_Counter.xcdatamodel; sourceTree = "<group>"; };
 		35FD42802671C30D0096B2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35FD42832671C30D0096B2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,13 +49,12 @@
 		35FD42952671C30D0096B2FC /* COVID-19 CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVID-19 CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FD42992671C30D0096B2FC /* COVID_19_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19_CounterUITests.swift; sourceTree = "<group>"; };
 		35FD429B2671C30D0096B2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35FD42AE2671C3800096B2FC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		35FD42B72671C5190096B2FC /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		35FD42BE2671C5B80096B2FC /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
 		35FD42D72671C6990096B2FC /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		35FD42D92671C69C0096B2FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7D1D08DB2C7D61C5005B1CA1 /* AppLogo180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppLogo180.png; sourceTree = "<group>"; };
-		7D9966A52C7D240E00DF2AFD /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		7DD5850D2EEB7EE700754987 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7DD5850F2EEB89AB00754987 /* COVID_19_CcounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_19_CcounterApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,17 +106,14 @@
 			isa = PBXGroup;
 			children = (
 				7D1D08DB2C7D61C5005B1CA1 /* AppLogo180.png */,
-				7D9966A72C7D59E100DF2AFD /* Utilities */,
-				7D9966A42C7D23F400DF2AFD /* Extensions */,
-				35FD42782671C30B0096B2FC /* MainController.swift */,
 				35FD42742671C30B0096B2FC /* AppDelegate.swift */,
-				35FD42762671C30B0096B2FC /* SceneDelegate.swift */,
-				35FD427A2671C30B0096B2FC /* Main.storyboard */,
 				35FD42802671C30D0096B2FC /* Assets.xcassets */,
 				35FD42822671C30D0096B2FC /* LaunchScreen.storyboard */,
 				35FD42852671C30D0096B2FC /* Info.plist */,
 				35FD427D2671C30B0096B2FC /* COVID_19_Counter.xcdatamodeld */,
 				35FD42D82671C6990096B2FC /* Localizable.strings */,
+				7DD5850D2EEB7EE700754987 /* MainView.swift */,
+				7DD5850F2EEB89AB00754987 /* COVID_19_CcounterApp.swift */,
 			);
 			path = "COVID-19 Counter";
 			sourceTree = "<group>";
@@ -144,22 +134,6 @@
 				35FD429B2671C30D0096B2FC /* Info.plist */,
 			);
 			path = "COVID-19 CounterUITests";
-			sourceTree = "<group>";
-		};
-		7D9966A42C7D23F400DF2AFD /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				7D9966A52C7D240E00DF2AFD /* UIButton+Extension.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		7D9966A72C7D59E100DF2AFD /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				35FD42AE2671C3800096B2FC /* Constants.swift */,
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +244,6 @@
 				35FD42842671C30D0096B2FC /* LaunchScreen.storyboard in Resources */,
 				35FD42D62671C6990096B2FC /* Localizable.strings in Resources */,
 				35FD42812671C30D0096B2FC /* Assets.xcassets in Resources */,
-				35FD427C2671C30B0096B2FC /* Main.storyboard in Resources */,
 				7D1D08DC2C7D61C5005B1CA1 /* AppLogo180.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,12 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35FD42AF2671C3800096B2FC /* Constants.swift in Sources */,
-				35FD42792671C30B0096B2FC /* MainController.swift in Sources */,
+				7DD5850E2EEB7EE700754987 /* MainView.swift in Sources */,
 				35FD42752671C30B0096B2FC /* AppDelegate.swift in Sources */,
 				35FD427F2671C30B0096B2FC /* COVID_19_Counter.xcdatamodeld in Sources */,
-				35FD42772671C30B0096B2FC /* SceneDelegate.swift in Sources */,
-				7D9966A62C7D240E00DF2AFD /* UIButton+Extension.swift in Sources */,
+				7DD585102EEB89AB00754987 /* COVID_19_CcounterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,15 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		35FD427A2671C30B0096B2FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35FD427B2671C30B0096B2FC /* Base */,
-				35FD42BE2671C5B80096B2FC /* es-419 */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		35FD42822671C30D0096B2FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -502,7 +464,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexhernandezc.COVID-19-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -527,7 +489,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alexhernandezc.COVID-19-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
